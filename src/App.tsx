@@ -3,7 +3,9 @@
 // import IntervalComponent from './components/IntervalComponent'
 // import DebounceComponent from './components/DebounceComponent'
 // import EventListenersComponent from './components/EventListenersComponent'
-import ForwardRefComponent from './components/ForwardRefComponent'
+// import ForwardRefComponent from './components/ForwardRefComponent'
+
+import LiftContentUp from "./components/LiftContentUp";
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
       {/* <PrimitivesDependenciesUseEffectComponent /> */}
       {/* <DebounceComponent /> */}
       {/* <EventListenersComponent /> */}
-      <ForwardRefComponent />
+      {/* <ForwardRefComponent /> */}
+      <LiftContentUp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
